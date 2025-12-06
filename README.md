@@ -1,3 +1,7 @@
+# Documento de Investigacion
+[Link al paper](paper.pdf)
+
+
 # Deliverables - Playground Activity Recognition with MP-GCN
 
 ## Structure
