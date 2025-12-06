@@ -62,7 +62,7 @@ deliverables/
 
 ## Model Architecture
 - **Classes**: 5 (Social_People, Transit, Play_Object_Normal, Adult_Assisting, sliding)
-- **Input**: (N, C, T, V, M) = (batch, 2, 32, 25, 6)
+- **Input**: (N, C, T, V, M) = (batch, 2, 48, 25, 6)
 
 ## How to Load Graphs
 
