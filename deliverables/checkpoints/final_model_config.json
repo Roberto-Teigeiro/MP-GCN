@@ -1,0 +1,23 @@
+{
+  "num_keypoints": 17,
+  "num_classes": 5,
+  "input_channels": 2,
+  "max_persons": 6,
+  "sequence_length": 32,
+  "max_hop": 2,
+  "graph_labeling": "spatial",
+  "base_channels": 64,
+  "num_stages": 3,
+  "dropout": 0.3,
+  "use_attention": true,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "epochs": 100,
+  "warmup_epochs": 5,
+  "augment_rotate": true,
+  "augment_scale": true,
+  "augment_flip": true,
+  "label_smoothing": 0.1,
+  "mixup_alpha": 0.2
+}

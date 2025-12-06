@@ -1,0 +1,161 @@
+columpioscam1:
+  resolution:
+  - 2560
+  - 1440
+  objects:
+  - name: banca_negra
+    type: bench
+    centroid:
+    - 0.7
+    - 0.4
+  - name: trampolin
+    type: game
+    centroid:
+    - 0.3
+    - 0.5
+  - name: silla_blanca
+    type: bench
+    centroid:
+    - 0.45
+    - 0.47
+  - name: silla_blanca_2
+    type: bench
+    centroid:
+    - 0.8
+    - 0.62
+columpioscam2:
+  resolution:
+  - 2560
+  - 1440
+  objects:
+  - name: juego_piedra_1
+    type: game
+    centroid:
+    - 0.65
+    - 0.45
+  - name: juego_piedra_2
+    type: game
+    centroid:
+    - 0.5
+    - 0.56
+  - name: silla_blanca_1
+    type: bench
+    centroid:
+    - 0.65
+    - 0.26
+  - name: silla_blanca_2
+    type: bench
+    centroid:
+    - 0.61
+    - 0.3
+columpios_cam4:
+  resolution:
+  - 2560
+  - 1440
+  objects:
+  - name: bote
+    type: other
+    centroid:
+    - 0.1
+    - 0.6
+columpioscam3:
+  resolution:
+  - 2560
+  - 1440
+  objects:
+  - name: silla_piedra1
+    type: bench
+    centroid:
+    - 0.14
+    - 0.65
+  - name: columpio
+    type: swing
+    centroid:
+    - 0.23
+    - 0.45
+  - name: silla_piedra2
+    type: bench
+    centroid:
+    - 0.11
+    - 0.65
+  - name: silla_piedra3
+    type: bench
+    centroid:
+    - 0.9
+    - 0.65
+  - name: bote1
+    type: other
+    centroid:
+    - 0.71
+    - 0.45
+  - name: bote2
+    type: other
+    centroid:
+    - 0.72
+    - 0.45
+  - name: bote3
+    type: other
+    centroid:
+    - 0.73
+    - 0.45
+  - name: bote4
+    type: other
+    centroid:
+    - 0.74
+    - 0.45
+hundido_cam7:
+  resolution:
+  - 2560
+  - 1440
+  objects:
+  - name: mesa_metal
+    type: other
+    centroid:
+    - 0.43
+    - 0.6
+  - name: banca_metal
+    type: bench
+    centroid:
+    - 0.43
+    - 0.45
+  - name: mesa_metal2
+    type: other
+    centroid:
+    - 0.45
+    - 0.47
+  - name: escaleras
+    type: structure
+    centroid:
+    - 0.54
+    - 0.3
+hundido_cam1:
+  resolution:
+  - 2560
+  - 1440
+  objects:
+  - name: bancaMetal
+    type: bench
+    centroid:
+    - 0.75
+    - 0.59
+  - name: sillaPiedra1
+    type: bench
+    centroid:
+    - 0.87
+    - 0.54
+  - name: sillaPiedra2
+    type: bench
+    centroid:
+    - 0.85
+    - 0.54
+  - name: sillaPiedra3
+    type: bench
+    centroid:
+    - 0.86
+    - 0.58
+  - name: sillaPiedra4
+    type: bench
+    centroid:
+    - 0.8
+    - 0.55
+

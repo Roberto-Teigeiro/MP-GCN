@@ -1,0 +1,112 @@
+nohup: ignoring input
+============================================================
+Playground Activity Recognition Training
+============================================================
+Poses root: /home/sformador/equipo1/finalfinal/runs/pose_batch
+Annotations: /home/sformador/equipo1/finalfinal/annotationsv2.json
+Objects YAML: /home/sformador/equipo1/finalfinal/objects.yaml
+Save directory: /home/sformador/equipo1/finalfinal/checkpoints
+Device: cuda
+Model: Full
+Classes: ['Social_People', 'Transit', 'Play_Object_Normal', 'Adult_Assisting', 'sliding']
+------------------------------------------------------------
+Epochs: 100
+Batch size: 16
+Learning rate: 0.001
+Max persons: 6
+Sequence length: 48
+Label smoothing: 0.1
+Mixup alpha: 0.2
+============================================================
+Max objects per camera: 8
+/home/sformador/equipo1/finalfinal/model/trainer.py:152: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.scaler = GradScaler()
+Detected 25 nodes (17 keypoints + 8 objects)
+Creating full PlaygroundGCN model...
+Model parameters: 2,408,655
+Starting training on cuda
+Training samples: 251
+Validation samples: 63
+------------------------------------------------------------
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 1/100 (4.0s) | LR: 2.00e-04 | Train: 1.4397 / 0.5128 | Val: 1.3950 / 0.5556 / F1: 0.3968 *
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 2/100 (2.8s) | LR: 4.00e-04 | Train: 1.1451 / 0.5542 | Val: 1.0790 / 0.5556 / F1: 0.3968 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 3/100 (3.1s) | LR: 6.00e-04 | Train: 1.0795 / 0.6564 | Val: 1.0062 / 0.8095 / F1: 0.7694 *
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 4/100 (2.8s) | LR: 8.00e-04 | Train: 1.0713 / 0.7032 | Val: 1.0002 / 0.7778 / F1: 0.7316 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 5/100 (3.0s) | LR: 1.00e-03 | Train: 0.9755 / 0.7538 | Val: 1.2811 / 0.8254 / F1: 0.7819 *
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 6/100 (2.8s) | LR: 1.00e-03 | Train: 0.9672 / 0.7523 | Val: 0.9126 / 0.8095 / F1: 0.7694 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 7/100 (2.8s) | LR: 1.00e-03 | Train: 1.0135 / 0.7428 | Val: 0.9480 / 0.7619 / F1: 0.7261 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 8/100 (2.8s) | LR: 9.99e-04 | Train: 0.9863 / 0.7560 | Val: 0.9124 / 0.7937 / F1: 0.7556 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 9/100 (2.8s) | LR: 9.98e-04 | Train: 0.9401 / 0.7725 | Val: 0.9030 / 0.8095 / F1: 0.7694 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 10/100 (2.8s) | LR: 9.96e-04 | Train: 0.9676 / 0.7421 | Val: 0.9612 / 0.8095 / F1: 0.7694 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 11/100 (2.8s) | LR: 9.93e-04 | Train: 0.9106 / 0.7838 | Val: 0.9368 / 0.8254 / F1: 0.7819 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 12/100 (2.8s) | LR: 9.90e-04 | Train: 0.8978 / 0.7764 | Val: 0.9456 / 0.8095 / F1: 0.7694 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 13/100 (2.8s) | LR: 9.87e-04 | Train: 0.9716 / 0.7486 | Val: 0.9299 / 0.8095 / F1: 0.7655 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 14/100 (2.8s) | LR: 9.83e-04 | Train: 0.9335 / 0.7800 | Val: 0.9168 / 0.8095 / F1: 0.7694 
+/home/sformador/equipo1/finalfinal/model/trainer.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+/home/sformador/equipo1/finalfinal/model/trainer.py:244: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.use_amp):
+Epoch 15/100 (2.8s) | LR: 9.78e-04 | Train: 0.9009 / 0.7905 | Val: 0.9202 / 0.8095 / F1: 0.7655 
+Early stopping at epoch 15
+------------------------------------------------------------
+Training complete. Best accuracy: 0.8254, Best F1: 0.7819
+Training completed!
+Best accuracy: 0.8254
+Best F1 score: 0.7819
+Checkpoints saved to: /home/sformador/equipo1/finalfinal/checkpoints

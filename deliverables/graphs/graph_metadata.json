@@ -1,0 +1,119 @@
+{
+  "per_person": {
+    "num_nodes": 25,
+    "num_joints": 17,
+    "num_objects": 8,
+    "num_scales": 3,
+    "description": "Per-person graph used by PlaygroundGCNLite"
+  },
+  "panoramic": {
+    "num_persons": 6,
+    "num_objects": 8,
+    "num_joints": 17,
+    "total_nodes": 110,
+    "num_scales": 3,
+    "description": "Full panoramic graph with inter-person connections"
+  },
+  "edge_types": {
+    "A0": "Self-loops (identity)",
+    "A_intra": "Intra-person body topology + object-hand connections",
+    "A_inter": "Inter-person connections (pelvis-to-pelvis)"
+  },
+  "skeleton_edges": [
+    [
+      15,
+      13
+    ],
+    [
+      13,
+      11
+    ],
+    [
+      16,
+      14
+    ],
+    [
+      14,
+      12
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      12,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "connect_joint": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    5,
+    6,
+    7,
+    8,
+    0,
+    0,
+    11,
+    12,
+    13,
+    14
+  ],
+  "object_link_joints": [
+    9,
+    10
+  ]
+}
