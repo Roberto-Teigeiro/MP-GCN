@@ -44,8 +44,6 @@ deliverables/
 
 ### Per-Person Graph (Used by Model)
 - **Nodes**: 25 (17 COCO keypoints + 8 objects)
-- **Scales**: 3 (self-loops, intra-person, inter-person placeholder)
-- **Shape**: (3, 25, 25)
 
 ### Adjacency Types
 1. **A0 (Self)**: Identity matrix - self-connections
