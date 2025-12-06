@@ -3,7 +3,11 @@
 ## Structure
 
 ```
+└── README.md  
+│
+│
 deliverables/
+│
 ├── graphs/                      # Graph adjacency matrices
 │   ├── A0_self.npy             # Self-loop adjacency (identity)
 │   ├── A_intra.npy             # Intra-person body + object connections
@@ -32,7 +36,6 @@ deliverables/
 │   ├── final_model.pth         # Final model checkpoint (symlink)
 │   └── final_model_config.json # Model configuration
 │
-└── README.md                   # This file
 │
 └── pose_batch.zip # Containing all of the yolo-extracted poses from the videos
 ```
