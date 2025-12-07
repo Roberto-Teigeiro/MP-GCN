@@ -1,47 +1,47 @@
-# Documento de Investigacion
-[Link al paper](paper.pdf)
+﻿# Documento de Investigación
 
+## [Link al paper](paper.pdf)
 
 # Deliverables - Playground Activity Recognition with MP-GCN
 
 ## Structure
 
 ```
-└── README.md  
-│
-│
+ README.md  
+
+
 deliverables/
-│
-├── graphs/                      # Graph adjacency matrices
-│   ├── A0_self.npy             # Self-loop adjacency (identity)
-│   ├── A_intra.npy             # Intra-person body + object connections
-│   ├── A_inter.npy             # Inter-person connections
-│   ├── A_combined.npy          # Combined [A0, A_intra, A_inter]
-│   ├── A_intra_raw.npy         # Unnormalized A_intra (for visualization)
-│   ├── A_panoramic_full.npy    # Full panoramic graph (reference)
-│   ├── connect_joint.npy       # Parent joint indices for bone computation
-│   └── graph_metadata.json     # Graph configuration and metadata
-│
-├── data/
-│   ├── videos.csv              # Video index (video_id, camera, label)
-│   ├── annotations.json        # Raw annotations
-│   └── npy/                    # Per-sample .npy files (if available)
-│
-├── configs/
-│   └── objects.yaml            # Object centroids per camera
-│
-├── metrics/
-│   ├── training_history.json   # Full training history
-│   └── training_summary.json   # Best metrics summary
-│
-├── checkpoints/
-│   ├── best_model.pth          # Best model checkpoint (symlink)
-│   ├── best_model_config.json  # Model configuration
-│   ├── final_model.pth         # Final model checkpoint (symlink)
-│   └── final_model_config.json # Model configuration
-│
-│
-└── pose_batch.zip # Containing all of the yolo-extracted poses from the videos
+
+ graphs/                      # Graph adjacency matrices
+    A0_self.npy             # Self-loop adjacency (identity)
+    A_intra.npy             # Intra-person body + object connections
+    A_inter.npy             # Inter-person connections
+    A_combined.npy          # Combined [A0, A_intra, A_inter]
+    A_intra_raw.npy         # Unnormalized A_intra (for visualization)
+    A_panoramic_full.npy    # Full panoramic graph (reference)
+    connect_joint.npy       # Parent joint indices for bone computation
+    graph_metadata.json     # Graph configuration and metadata
+
+ data/
+    videos.csv              # Video index (video_id, camera, label)
+    annotations.json        # Raw annotations
+    npy/                    # Per-sample .npy files (if available)
+
+ configs/
+    objects.yaml            # Object centroids per camera
+
+ metrics/
+    training_history.json   # Full training history
+    training_summary.json   # Best metrics summary
+
+ checkpoints/
+    best_model.pth          # Best model checkpoint (symlink)
+    best_model_config.json  # Model configuration
+    final_model.pth         # Final model checkpoint (symlink)
+    final_model_config.json # Model configuration
+
+
+ pose_batch.zip # Containing all of the yolo-extracted poses from the videos
 ```
 
 ## Graph Details
@@ -84,3 +84,14 @@ A_inter = np.load('deliverables/graphs/A_inter.npy')
 connect_joint = np.load('deliverables/graphs/connect_joint.npy')
 ```
 
+## Evaluación del Proyecto
+
+Ver la tabla completa de evaluación en: [**EVALUACION.md**](EVALUACION.md)
+
+La tabla detalla el cumplimiento de todos los rubros del proyecto incluyendo:
+- Metodología y comunicación con stakeholders
+- Documentación y estructura del repositorio
+- Análisis de big data y escalabilidad
+- Selección y arquitectura del modelo
+- Métricas de evaluación e interpretación de resultados
+- Refinamiento iterativo y pruebas comparativas
